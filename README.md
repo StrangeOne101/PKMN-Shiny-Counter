@@ -6,3 +6,6 @@ Fetches the list of pokemon from pokemondb.net and imports it. Which is why alth
 Built on an old version of Chrome. It used to have the Alt + C (count) keybind to make it count up, but it doesn't work on modern chrome. Will need to be updated for the modern chrome extension format
 
 <p align="center"><img src="img/example.png" height=499 width=297 /></p>
+
+# Forks
+Feel free to fork and update. Will review any PRs to this if anyone decides to update it before me
