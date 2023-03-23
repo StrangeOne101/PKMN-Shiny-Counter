@@ -1,0 +1,313 @@
+body {
+    width: 280px;
+    padding: 2px 2px 2px 2px;
+    height: 500px;
+    background: transparent;
+}
+
+html {
+    background-image: url("../img/bg.png") !important;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h3.banner {
+    margin-top: 12px;
+}
+
+#banner {
+    margin-bottom: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-bottom: 1px solid #989898;
+    height: 50px;
+}
+
+#banner > * {
+    display: inline-block !important;
+    vertical-align: middle;
+}
+
+#logo {
+    margin-right: 4px;
+    margin-top: 6px;
+}
+
+.hr {
+    margin: 8px 2px 8px 2px;
+    border-bottom: 1px solid #999;
+
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#pokemon-artwork {
+    width: 170px;
+    height: 170px;
+    border: 1px solid #323232;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin-bottom: 4px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+#pokemon-types {
+    width: 80%;
+    height: 30px;
+    font-size: 12px;
+}
+
+#pokemon-name {
+    height: 32px;
+    margin-bottom: 4px;
+    font-size: 24px;
+    text-decoration: none;
+    cursor: pointer;
+    width: fit-content;
+}
+
+#pokemon-name:hover {
+    text-decoration: underline;
+}
+
+#pokemon-form {
+    font-size: 12px;
+}
+
+#pokemon-artwork > div > div {
+    display: table-cell;
+    vertical-align: middle;
+    height: 150px;
+    width: 150px;
+}
+
+#pokemon-artwork > div {
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+}
+
+#pokemon-artwork-img {
+    max-width: 100%;
+    max-height: 100%
+}
+
+#pokemon-list {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.type {
+    display: inline-block;
+    width: 58px;
+    line-height: 1;
+    margin: 1px 2px 1px 2px;
+    padding: 5px 0;
+    color: #FFFFFF;
+    border: 1px solid;
+    border-radius: 2px;
+}
+
+#counter {
+    min-width: 96px;
+    min-height: 64px;
+    font-size: 28px;
+    width: 96%;
+}
+
+.white-button {
+    background-color: #FAFAFA;
+    border: 1px solid #0F0F0F;
+    font-size: 12px;
+    width: 100%;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.btn-sm {
+    padding: 2px 8px 2px 8px;
+}
+
+label {
+    display: block;
+    margin-bottom: 3px;
+}
+
+.left {
+    width: 40%;
+    float: left;
+    padding-right: 2px;
+}
+
+.right {
+    width: 60%;
+    float: right;
+    padding-left: 2px;
+
+    vertical-align: center;
+}
+
+#info-box {
+    alignment: center;
+    text-align: left;
+    margin-left: 7px;
+    margin-top: 4px;
+}
+
+.info {
+    font-size: 14px;
+    margin-bottom: -2px;
+}
+
+#counter:hover {
+    background-color: #fffff6;
+}
+
+#counter:focus {
+    box-shadow: none;
+}
+
+#counter-section {
+    margin-top: 20px;
+    padding: 0px 8px 4px 8px;
+}
+
+.grass {
+    background: #78c850;
+    background-image: -webkit-linear-gradient(#78c850,#5ca935);
+    background-image: linear-gradient(#78c850,#5ca935);
+    border-color: #4a892b;
+}
+
+.poison {
+    background: #a040a0;
+    background-image: -webkit-linear-gradient(#a040a0,#803380);
+    background-image: linear-gradient(#a040a0,#803380);
+    border-color: #662966;
+}
+
+.fire {
+    background: #f08030;
+    background-image: -webkit-linear-gradient(#f08030,#dd6610);
+    background-image: linear-gradient(#f08030,#dd6610);
+    border-color: #b4530d;
+}
+
+.dragon {
+    background: #7038f8;
+    background-image: -webkit-linear-gradient(#7038f8,#4c08ef);
+    background-image: linear-gradient(#7038f8,#4c08ef);
+    border-color: #3d07c0;
+}
+
+.flying {
+    background: #a890f0;
+    background-image: -webkit-linear-gradient(#a890f0,#9180c4);
+    background-image: linear-gradient(#a890f0,#9180c4);
+    border-color: #7762b6;
+}
+
+.water {
+    background: #6890f0;
+    background-image: -webkit-linear-gradient(#6890f0,#386ceb);
+    background-image: linear-gradient(#6890f0,#386ceb);
+    border-color: #1753e3;
+}
+
+.bug {
+    background: #a8b820;
+    background-image: -webkit-linear-gradient(#a8b820,#8d9a1b);
+    background-image: linear-gradient(#a8b820,#8d9a1b);
+    border-color: #616b13;
+}
+
+.normal {
+    background: #8a8a59;
+    background-image: -webkit-linear-gradient(#a8a878,#8a8a59);
+    background-image: linear-gradient(#a8a878,#8a8a59);
+    border-color: #79794e;
+}
+
+.dark {
+    background: #705848;
+    background-image: -webkit-linear-gradient(#705848,#513f34);
+    background-image: linear-gradient(#705848,#513f34);
+    border-color: #362a23;
+}
+
+.electric {
+    background: #f8d030;
+    background-image: -webkit-linear-gradient(#f8d030,#f0c108);
+    background-image: linear-gradient(#f8d030,#f0c108);
+    border-color: #c19b07;
+}
+
+.psychic {
+    background: #f85888;
+    background-image: -webkit-linear-gradient(#f85888,#f61c5d);
+    background-image: linear-gradient(#f85888,#f61c5d);
+    border-color: #ba083d;
+}
+
+.ice {
+    background: #98d8d8;
+    background-image: -webkit-linear-gradient(#98d8d8,#69c6c6);
+    background-image: linear-gradient(#98d8d8,#69c6c6);
+    border-color: #45b6b6;
+}
+
+.steel {
+    background: #b8b8d0;
+    background-image: -webkit-linear-gradient(#b8b8d0,#9797ba);
+    background-image: linear-gradient(#b8b8d0,#9797ba);
+    border-color: #7a7aa7;
+}
+
+.ground {
+    background: #e0c068;
+    background-image: -webkit-linear-gradient(#e0c068,#d4a82f);
+    background-image: linear-gradient(#e0c068,#d4a82f);
+    border-color: #aa8623;
+}
+
+.fairy {
+    background: #e898e8;
+    background-image: -webkit-linear-gradient(#e898e8,#de6ede);
+    background-image: linear-gradient(#e898e8,#de6ede);
+    border-color: #d547d5;
+}
+
+.fighting {
+    background: #c03028;
+    background-image: -webkit-linear-gradient(#c03028,#9d2721);
+    background-image: linear-gradient(#c03028,#9d2721);
+    border-color: #82211b;
+}
+
+.rock {
+    background: #b8a038;
+    background-image: -webkit-linear-gradient(#b8a038,#93802d);
+    background-image: linear-gradient(#b8a038,#93802d);
+    border-color: #746523;
+}
+
+.ghost {
+    background: #705898;
+    background-image: -webkit-linear-gradient(#705898,#554374);
+    background-image: linear-gradient(#705898,#554374);
+    border-color: #413359;
+}
+
+.missingno {
+    background: #1f4234;
+    background-image: -webkit-linear-gradient(#217006, #150041);
+    background-image: linear-gradient(#217006, #150041);
+    border-color: #7a0094;
+}

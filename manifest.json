@@ -1,0 +1,31 @@
+{
+   "author": "StrangeOne101",
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_popup": "popup.html"
+   },
+   "description": "Count Pokemon encounters in the background while shiny hunting!",
+   "icons": {
+      "128": "img/icon-128.png"
+   },
+   "options_ui": {
+      "page": "options.html",
+      "chrome_style": true
+   },
+   "commands": {
+      "pkmn-shiny-count": {
+         "suggested_key": {
+            "default": "Alt+C"
+         },
+         "description": "Increases the encounter count",
+         "global": true
+      }
+   },
+   "manifest_version": 2,
+   "name": "Pokemon Shiny Counter",
+   "permissions": ["notifications", "storage", "https://pokemondb.net/*"],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}
